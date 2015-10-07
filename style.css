@@ -1,0 +1,71 @@
+#blog-title {
+  color: black;
+  
+}
+.bordered{
+  border: 1 px dotted black;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 5px;
+  
+  }
+body {
+  font-family: Arial;
+}
+
+p.right-align {
+  text-align: left;
+
+
+}
+.float-right{
+  float: right;
+}
+.float-left {
+  float: left;
+}
+.cleared {
+  clear: both;
+}
+.list > li {
+  
+  float: left;
+  border: 1px dotted black;
+  padding: 5px;
+  margin: 3px 8px;
+  background-color: gray;
+  text-align: center;
+  width: 100px;
+  list-style-type: none;
+  cursor: pointer;
+  
+}
+.list > li:hover {
+  background-color: white;
+  color: purple;
+}
+img {
+  border-radius: 50%;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+div#hold-still {
+  width: 45%;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+background-color: silver;
+}
+body{
+background-image:url("https://media.giphy.com/media/cGETcPFqv0Nby/giphy.gif");
+background-position: center;
+background-size: cover;
+color: white;
+}
+
+
+
+
